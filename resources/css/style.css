@@ -187,6 +187,10 @@ nav a {
   margin: 2rem 0;
 }
 
+.orientation-img {
+  margin: auto;
+}
+
 @media only screen and (min-width: 750px) {
   .orientation-img-mobile {
     display: none;
@@ -194,8 +198,7 @@ nav a {
 
   .info-box #orientation {
     position: relative;
-    top: -1.5rem;
-    margin-bottom: -1.5rem;
+
   }
 
 .info-text h5 {
@@ -215,11 +218,20 @@ nav a {
 
 }
 .campus-img {
-  
+  margin: auto;
 }
 
-/* Start / Section 3  */
+@media only screen and (min-width: 750px) {
+  .campus-img-mobile {
+    display: none;
+}
 
-/* Thesis / Section 4 */
+@media only screen and (min-width: 750px) {
+  .lecture-img-mobile {
+    display: none;
+
+/* Section 3 / Learn */
+
+/* Section 4 / Thesis */
 
 /* Footer  */
