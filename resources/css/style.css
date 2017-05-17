@@ -1,0 +1,225 @@
+/* Colmar Academy Capstone Project */
+
+html {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  background-color: white;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.image-container img {
+  width: inherit;
+  height: auto;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 3.5rem;
+}
+
+h4 {
+  font-weight: 300;
+  font-size: 1.75rem;
+}
+
+h5 {
+  font-size: 300;
+  font-size: 1.5rem
+}
+
+p {
+  font-family: sans-serif;
+}
+
+.quote {
+  font-weight: 600;
+  padding-top: 1.5rem;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  /* justify-content: center; /* may not need this */
+  flex-wrap: wrap;
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 64px;
+  align-items: center;
+}
+
+.colmar {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.academy {
+  color: #949494;
+  font-size: 1.5rem;
+}
+
+.logo img {
+  padding-left: 24px;
+}
+
+/* Nav */
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+  padding-right: 24px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 64px 16px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #949494;
+  font-size: 1rem;
+}
+
+/* Nav Mobile */
+
+.mobile {
+
+}
+
+/* Main / Section 1 */
+
+.banner {
+  color: #fff;
+  padding-top: 4rem;
+  background: slategray;
+  background-size: auto;
+}
+
+.banner-box {
+  margin: 2rem 1.5rem;
+}
+
+.banner-left {
+  width: 60%;
+  height: auto;
+  margin-right: 2rem;
+  align-items: flex-start;
+}
+
+.image-container {
+  width: 100%;
+}
+
+.banner-right .banner-text {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+
+.banner-text {
+  padding-bottom: 1rem;
+}
+
+.btn {
+  border-radius: 2px;
+  width: 95%;
+  color: black;
+}
+
+.banner-right {
+  width: 40%;
+  margin-left: 2rem;
+}
+
+.books img {
+  height: 480px;
+  padding-top: 75px;
+}
+
+@media only screen and (min-width: 850px) {
+  .mobile {
+    display: none;
+  }
+
+
+/* Section 2 / Info */
+
+.section-two  {
+  color: black;
+}
+
+.right-boxes {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-box#info {
+  margin: 1.5rem 0 1.5rem 1.0rem;
+}
+
+.banner-left .info {
+  max-width: 60%;
+}
+
+.banner-left {
+  width: 60%;
+  height: auto;
+  margin-right: 2rem;
+  align-items: flex-start;
+}
+
+.image-container {
+  width: 100%;
+}
+
+.banner-text {
+  padding-bottom: 1rem;
+  color: #fff;
+}
+
+.info h4 {
+  margin: 2rem 0;
+}
+
+@media only screen and (min-width: 750px) {
+  .orientation-img-mobile {
+    display: none;
+  }
+
+  .info-box #orientation {
+    position: relative;
+    top: -1.5rem;
+    margin-bottom: -1.5rem;
+  }
+
+.info-text h5 {
+  padding-bottom: 0.5rem;
+}
+
+.info-text {
+  padding-bottom: 0.5rem;
+}
+
+.info-text a {
+  text-decoration: none;
+  color: slategray;
+}
+
+.info-box #campus {
+
+}
+.campus-img {
+  
+}
+
+/* Start / Section 3  */
+
+/* Thesis / Section 4 */
+
+/* Footer  */
